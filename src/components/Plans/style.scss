@@ -1,0 +1,111 @@
+@import '../../assets/scss/color';
+
+.box-plan{
+  width: 90%;
+  height: auto;
+  background-color: $secondary;
+  padding: 20px;
+  box-shadow: 2px -2px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  .feature{
+    width: 100%;
+    height: 1.7px;
+    background-color: white;
+    opacity: .4;
+    margin-bottom: 10px;
+  }
+  .title-box{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #EDEDED;
+  }
+  .itens-box{
+    color: #FFFFFF;
+    .header-itens{
+      h2{  
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        margin: 10px 0;
+      }
+    }
+    .section-itens{
+      .iten{
+        margin: 20px 0;
+        display: flex;
+        .icon{
+          margin-right: 5px;
+          .iconify{
+
+          }
+        }
+        .text{
+          span{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+          }
+        }
+      }
+    }
+    .footer-itens{
+      width: 100%;
+      .header-footer{
+        margin: 30px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        .text{
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          width: 50%;
+          span{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+          }
+        }
+        .price{
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          width: 50%;
+          span{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+          }
+        }
+      }
+      .button-footer{
+        width: 100%;
+        button{
+          cursor: no-drop;
+          border: none;
+          border-radius: 56px;
+          height: 64px;
+          width: 100%;
+          background: #999999;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 23px;
+          color: #FFFFFF;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .iconify{
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}

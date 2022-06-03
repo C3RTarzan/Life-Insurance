@@ -127,7 +127,9 @@ section{
       }
     }
     .plan{
-      
+      height: min-content;
+      display: flex;
+      justify-content: center;
     }
   }
 }

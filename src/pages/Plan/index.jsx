@@ -1,6 +1,7 @@
 import './style.scss';
 
 import { CreditCard } from '../../components/CreditCard';
+import { Plans } from '../../components/Plans';
 
 const logo = require('../../assets/img/Logo.png');
 
@@ -95,7 +96,7 @@ function Plan() {
             </div>
           </div>
           <div className='plan'>
-            <span>la</span>
+            <Plans />
           </div>
         </form>
       </section>
