@@ -1,0 +1,81 @@
+@import '../../assets/scss/color';
+.card{
+  opacity: .95;
+  background-color: $tertiary;
+  border: 0.5px solid #2D2F33;
+  border-radius: 16px;
+  padding: 20px;
+  .header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    .text-header{
+      display: flex;
+      flex-direction: row;
+      width: 60%;
+      div{
+        color: #020246;
+        span{
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 16px;
+        }
+        .iconify{
+          margin-right: 10px;
+
+        }
+      }
+    }
+    .flagCard{
+      width: 40%;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: flex-end;
+      .iconify{
+        font-size: 12px;
+        margin: 0 5px;
+      }
+    }
+  }
+  .input{
+    .box{
+      margin-top: 25px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      .input-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        label{
+          margin-bottom: 8px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px;
+        }
+        input{
+          width: 98%;
+          height: 36px;
+          border-radius: 8px;
+          outline: none;
+          border: 0.5px solid #2D2F33;
+          padding-left: 8px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+        }
+      }
+      .input-box:nth-child(1){
+        width: 70%;
+      }
+      .input-box:nth-child(2){
+        width: 30%;
+      }
+    }
+  }
+}
