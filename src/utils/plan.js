@@ -1,7 +1,7 @@
 export const plan = [
   {
     id: 1,
-    name: 'Proteção Família Gold',
+    name: 'Família Gold',
     benefit: [
       {
         iten: 'Morte - R$ 40.000,00',

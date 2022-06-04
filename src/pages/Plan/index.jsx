@@ -3,16 +3,9 @@ import './style.scss';
 import { CreditCard } from '../../components/CreditCard';
 import { Plans } from '../../components/Plans';
 
-const logo = require('../../assets/img/Logo.png');
-
 function Plan() {
   return (
     <>
-      <header>
-        <div className='logo'>
-          <img src={logo} alt="" />
-        </div>
-      </header>
       <section>
         <form action="" method="post">
           <div className='form'>

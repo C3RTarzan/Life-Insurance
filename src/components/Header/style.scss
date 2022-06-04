@@ -1,0 +1,15 @@
+@import '../../assets/scss/config';
+@import '../../assets/scss/color';
+
+header{
+  width: 100%;
+  height: 81px;
+  background-color: $primary;
+  padding-left: $marginL;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 0px 20px rgba(244, 97, 2, 0.1);
+  .logo{
+    
+  }
+}

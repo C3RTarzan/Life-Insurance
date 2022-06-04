@@ -8,7 +8,7 @@ export const Plans = () => (
     {plan.map(plans => (
       <div key={plans.id} className='itens-box'>
         <div className='header-itens'>
-          <h2>{plans.name}</h2>
+          <h2>Proteção {plans.name}</h2>
           <div className='feature'></div>
         </div>
         <div className="section-itens">
